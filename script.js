@@ -7,16 +7,17 @@ let boxClicked = function(e) {
   // boxsArray.forEach(function(el) {
   //   el.classList.remove('active');
   // })
-  
+
   for(let i = 0; i < boxsArray.length; i++) {
     let el = boxsArray[i];
     el.classList.remove('active');
   }
-  
+
   e.target.classList.add('active');
   // audio.loop = false;
-  // audio.play(); 
+  // audio.play();
 }
+
 
 
 for (let i = 0; i < boxsArray.length; i++) {
